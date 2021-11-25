@@ -1,4 +1,10 @@
-# csgosettings
-Settings for CS:GO, could include external scripts
+# CSGO Settings
 
-Those settings are used for my personal csgo installation. You can replicate and edit them as you wish. Please note that this might include external scripts/overlays which are not done by me, if so, I will credit the creators below.
+Impostazioni, radar e autoexec per CS:GO
+
+Include:
+
+- Autoexec.cfg ottimizzato per fps e connessione
+- SimpleRadar (https://readtldr.gg/simpleradar)
+- Language Pack (fork di BananaGaming CSGO Language Pack)
+- Radiopanel per radiocommands che includono anche i nascosti (https://steamcommunity.com/app/730/discussions/0/2552901289729641277/)
