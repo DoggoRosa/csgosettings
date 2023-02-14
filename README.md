@@ -1,60 +1,56 @@
-
 # Dogino's CSGO Settings
 
-Settings con immagini e file .cfg configurabili per la ottimizzazione di CSGO, sia graficamente che in stabilità, hitreg e connessione.
+Settings with images and cfgs which includes game optimization and features.
 
-## File Usati e modifiche
+## Files used
 
  - [SimpleRadar](https://readtldr.gg/simpleradar)
- - [Language Pack](https://maximhere.me/customizations/) originale di [BananaGaming](https://www.youtube.com/channel/UCPKbW1excf-E7Tmwom1AgkQ), Cambiati testi e colori
+ - CS:GO Text Color Mod from [BananaGaming](https://www.youtube.com/channel/UCPKbW1excf-E7Tmwom1AgkQ)
  - [Custom Radiopanel](https://steamcommunity.com/app/730/discussions/0/2552901289729641277/)
- - AutoExec basato su semplicità e ottimizzazione
- - Granate Rapide con tasti separati anziché la rotella delle granate
+ - Autoexec for 128tick starting local server and minor optimizations
+ - Custom nade throwing with separate keys
  - Jumpthrow Script
- - Net_Graph visibile solo con la scoreboard attiva
- - Keybind minori
-
-#### Abilitazione bind
- Tutte le bind sono disattive di default, modificare il file autoexec.cfg togliendo il **//** da autoexecsettings.cfg per abilitarle, il crosshair non viene invariato dalle config in quanto anch'esso è disattivato, per attivarlo, cancellare il **//** da crosshair.cfg in autoexecsettings.cfg
+ - Minor binds
  
-## Modifiche Radar e Interfaccia, VAC?
-Queste modifiche variano soltanto il lato client del gioco, non interferiscono con l'sv_pure e non interferiscono con i server. Lo staff di FACEIT ha creato una lista di applicazioni e software/modifiche permessi per giocare nei loro server, leggi di più nel loro articolo dedicato [Cliccando Qui](https://support.faceit.com/hc/en-us/articles/360015788779-What-is-deemed-to-be-a-cheat-) , le modifiche di questo pack rientrano in Game config changes (.cfg) e Simple radar.
-## Installazione
-#### Scaricare i file
+## Radar and UI mods, VAC-safe?
+This settings only affect the client, not the server. They won't interfere with sv_pure or the servers. FACEIT Staff made a blog post about what's allowed on their servers, read more [clicking here](https://support.faceit.com/hc/en-us/articles/360015788779-What-is-deemed-to-be-a-cheat-), those mods are Game config changes (.cfg) and Simple radar.
+## Installation
+#### Downloading
 
-Visita la sezione [Release](https://github.com/Dogino/CSGO-Settings/releases) e scarica il master, oppure [clicca qui per scaricare direttamente](https://github.com/Dogino/CSGO-Settings/archive/refs/heads/main.zip)
+Check the [Release](https://github.com/Dogino/CSGO-Settings/releases) section and download the master or [click here](https://github.com/Dogino/CSGO-Settings/archive/refs/heads/main.zip) for the direct download.
 
-Apri con [7Zip](https://www.7-zip.org/download.html) o un software simile
+Open with [7Zip](https://www.7-zip.org/download.html) or any similar software
 
-#### Installare i file
-Apri Steam --> Libreria --> Tasto destro su **Counter-Strike: Global Offensive** --> Proprietà --> File Locali --> Sfoglia i file locali...
+#### Installation
+Open Steam --> Game library --> Right click on **Counter-Strike: Global Offensive** --> Properties... --> Local Files --> Browse...
 
-Incolla tutto il contenuto dentro *Counter-Strike Global Offensive* --> csgo (controllare che le cartelle cfg e resource esistano prima di incollare la cartella, devono coincidere)
+Paste everything under *Counter-Strike Global Offensive* --> csgo (check if the /cfg/ folder exists and it has to be the same as the /cfg/ from what you have downloaded)
 
-Se richiesto di sovrascrivere alcuni file, accettare e l'installazione sarà avvenuta con successo.
+If you get a prompt for a file override, it means you have correctly installed the pack.
 
 ## Steam Launch Options
-Usa le seguenti opzioni di avvio per CSGO da Steam
+Use those launch options for CS:GO
 
-Steam -> Libreria -> Tasto destro su **Counter-Strike: Global Offensive** --> Proprietà --> Opzioni di Avvio
+Steam -> Game Library -> Right Click on **Counter-Strike: Global Offensive** --> Properties... --> Launch Options
 
 ```bash
-  -language easy -novid -nojoy +exec autoexec.cfg
+  -novid -language easy +exec autoexec.cfg
 ```
     
-## Dettagli Grafici Gioco
-Opzioni di gioco --> Grafica
+## Graphic Details
+Game Settings --> Video Options
 ![Grafica CSGO](https://dogetech.it/csgo/csgografica.jpg)
 
-## Dettagli Pannello Nvidia
-Tasto destro sul desktop --> Pannello di controllo NVIDIA --> Impostazioni 3D
+## Nvidia Control Panel
+Right click on Desktop --> NVIDIA Control Panel --> 3d Settings
 ![Pannello NVIDIA](https://dogetech.it/csgo/nvidia.png)
-## Dettagli Pannello AMD
-Tasto destro sul desktop --> AMD Radeon Software --> Giochi --> CS:GO
+
+## AMD GPUs
+Right click on desktop --> AMD Radeon Software --> Games --> CS:GO
 ![Pannello AMD](https://dogetech.it/csgo/amd.png)
 
-## Disinstallazione
-Per disinstallare il pack effettuare la verifica dei file di gioco.
+## Removing
+If you wish to delete this pack, just verify your game data.
 
-Steam -> Libreria -> Tasto destro su **Counter-Strike: Global Offensive** --> Proprietà --> File Locali --> Verifica integrità dei file di gioco...
+Steam -> Game Library -> Right click on **Counter-Strike: Global Offensive** --> Properties... --> Local Files --> Verify integrity of game files...
 
